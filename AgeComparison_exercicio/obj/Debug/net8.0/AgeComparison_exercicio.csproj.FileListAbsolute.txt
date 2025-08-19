@@ -1,0 +1,15 @@
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\bin\Debug\net8.0\AgeComparison_exercicio.exe
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\bin\Debug\net8.0\AgeComparison_exercicio.deps.json
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\bin\Debug\net8.0\AgeComparison_exercicio.runtimeconfig.json
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\bin\Debug\net8.0\AgeComparison_exercicio.dll
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\bin\Debug\net8.0\AgeComparison_exercicio.pdb
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\AgeComparison_exercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\AgeComparison_exercicio.AssemblyInfoInputs.cache
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\AgeComparison_exercicio.AssemblyInfo.cs
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\AgeComparison_exercicio.csproj.CoreCompileInputs.cache
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\AgeComparison_exercicio.sourcelink.json
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\AgeComparison_exercicio.dll
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\refint\AgeComparison_exercicio.dll
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\AgeComparison_exercicio.pdb
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\AgeComparison_exercicio.genruntimeconfig.cache
+C:\Users\biasr\Downloads\C#\AgeComparison_exercicio\AgeComparison_exercicio\obj\Debug\net8.0\ref\AgeComparison_exercicio.dll
