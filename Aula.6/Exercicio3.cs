@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace MyApp
 {
@@ -8,55 +9,35 @@ namespace MyApp
         {
             // Array de números
             int[] listaNumeros = { 5, 6, 4, 13 };
+            int[] numeros = new int[4];
 
             Console.WriteLine("Digite 4 números separados por espaço:");
             string[] entrada = Console.ReadLine().Split(' ');
 
-            // Verifica se o usuário digitou 4 números
-
             if (entrada.Length != listaNumeros.Length)
             {
-                Console.WriteLine("Você deve digitar exatamente 4 números");
+                Console.WriteLine("Você deve digitar exatamente 4 números.");
                 return;
             }
-        }
-    }
-}
-using System;
-
-namespace MyApp
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            // Array de números
-            int[] listaNumeros = { 5, 6, 4, 13 };
-
-            Console.WriteLine("Digite 4 números separados por espaço:");
-            string[] entrada = Console.ReadLine().Split(' ');
-
-            // Verifica se o usuário digitou 4 números
-            if (entrada.Length != listaNumeros.Length)
+            for (int i = 0; i < entrada.Length; i++)
             {
-                Console.WriteLine("Você deve digitar exatamente 4 números");
-                return;
-            }
-
-            int[] numerosColocados = new int[listaNumeros.Length];
-            for (int i = 0; i < listaNumeros.Length; i++)
-            {
-                if (!int.TryParse(entrada[i], out numerosColocados[i]))
+                if (int.TryParse(entrada[i], out int numero))
                 {
-                    Console.WriteLine($"Valor inválido: "{entrada[i]});
+                    numeros[i] = numero;
+                }
+                else
+                {
+                    Console.WriteLine($"'{entrada[i]}' não é um número válido.");
                     return;
                 }
             }
-
-            Console.WriteLine("Números digitados:");
-            foreach (var numero in numerosColocados)
+            if (numeros.SequenceEqual(listaNumeros))
             {
-                Console.WriteLine(numero);
+                Console.WriteLine("Acertou!");
+            }
+            else
+            {
+                Console.WriteLine("Errou");
             }
         }
     }
